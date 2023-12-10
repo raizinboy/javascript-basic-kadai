@@ -4,8 +4,8 @@ const btn = document.getElementById('btn');
     if(text.textContent === 'ボタンをクリックしてください'){
     setTimeout( () => {
       text.textContent = 'ボタンがクリックされました';
-    }, 2000)};
-  else {
-    text.textContent = 'ボタンをクリックしてください' ;
-  }
+    }, 2000)}
+    else {
+      text.textContent = 'ボタンをクリックしてください';
+    }
 });
